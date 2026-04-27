@@ -8,7 +8,6 @@ app.use(cors());
 app.use(express.json());
 app.use(express.static('public'));
 
-// Conexión simple para Localhost
 const dbConfig = {
     host: process.env.DB_HOST,
     user: process.env.DB_USER,
